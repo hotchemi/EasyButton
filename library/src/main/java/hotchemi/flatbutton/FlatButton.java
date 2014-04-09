@@ -1,7 +1,24 @@
+
 package hotchemi.flatbutton;
 
+import android.content.Context;
+import android.widget.Button;
+
 /**
- * Created by katafuchi on 2014/04/08.
+ * Provides flat button.
+ * 
+ * @author Shintaro Katafuchi
  */
-public class FlatButton {
+public class FlatButton extends Button {
+
+
+    public FlatButton(Context context) {
+        super(context);
+    }
+
+
+
+
+
+
 }
