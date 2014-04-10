@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <declare-styleable name="flat_button">
-        <attr name="text" format="string" />
-        <attr name="color" format="color" />
-        <attr name="size" format="dimension" />
-        <attr name="activity" format="string" />
+        <attr name="default" format="color" />
+        <attr name="pressed" format="color" />
     </declare-styleable>
 </resources>

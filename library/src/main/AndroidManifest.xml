@@ -1,6 +1,5 @@
-<manifest
-    package="hotchemi.flatbutton">
+<manifest package="flatbutton">
 
-    <application />
+    <application/>
 
 </manifest>

@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:txt="http://schemas.android.com/apk/res-auto"
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <hotchemi.flatbutton.FlatButton
-        android:layout_width="fill_parent"
+    <flatbutton.FlatButton
+        android:layout_gravity="bottom|center"
+        android:text="ok"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        txt:text="SubActivityに遷移"
-        txt:color="#f00"
-        txt:size="20dp"
-        txt:activity="net.sample.techbooster.customviewsample.SubActivity" />
+        tools:default="#f00"
+        tools:pressed="#000" />
 
-</LinearLayout>
+</FrameLayout>
