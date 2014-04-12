@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_default">#ff4444</color>
+    <color name="color_pressed">#cc0000</color>
+    <color name="color_focused">#ff8800</color>
+</resources>

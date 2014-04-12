@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <flatbutton.FlatButton
+    <easybutton.EasyButton
+        android:id="@+id/button"
         android:layout_gravity="bottom|center"
-        android:text="ok"
+        android:text="@string/button_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        tools:default="#f00"
-        tools:pressed="#000" />
+        android:layout_margin="@dimen/button_margin"
+        tools:color_default="@color/color_default"
+        tools:color_pressed="@color/color_pressed"
+        tools:color_focused="@color/color_focused" />
 
 </FrameLayout>
