@@ -9,13 +9,18 @@ EasyButton is Custom button set background color easily.
 
 EasyButton usage is very simple.
 
+Custom attributes.
+
+- tools:color_default
+- tools:color_pressed
+- tools:color_focused
+
 ```xml
 <easybutton.EasyButton
     android:id="@+id/button"
     android:text="@string/button_text"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    <!-- custom attributes -->
     tools:color_default="@color/color_default"
     tools:color_pressed="@color/color_pressed"
     tools:color_focused="@color/color_focused" />
