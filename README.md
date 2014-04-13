@@ -3,6 +3,20 @@ EasyButton
 
 EasyButton is Custom button set background color easily.
 
+## Download
+
+Download from [maven central](http://search.maven.org/#browse%7C-1636451052).
+
+```groovy
+  dependencies {
+    compile 'com.github.hotchemi:easy-button:{latest.version}'
+  }
+```
+
+## ChangeLog
+
+- 2014/04/13 0.0.1 release.
+
 ## How to use
 
 ### Implementation
@@ -11,9 +25,9 @@ EasyButton usage is very simple.
 
 Custom attributes.
 
-- tools:color_default
-- tools:color_pressed
-- tools:color_focused
+- `color_default` : default state.
+- `color_pressed` : when pressed.
+- `color_focused` : when focused.
 
 ```xml
 <easybutton.EasyButton
@@ -75,7 +89,3 @@ Supports Android 2.2 or greater.
 3. Commit your changes (`git commit -am 'Added some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
-
-## ChangeLog
-
-- 2014/04/13 0.0.1 release.
